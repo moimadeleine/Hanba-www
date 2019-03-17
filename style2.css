@@ -106,7 +106,7 @@ nav ul {
 	padding: 0;
 }
 
-nav ul > li {
+/*nav ul > li {
 	display: inline-block;
 	list-style-type: none;
 }
@@ -151,4 +151,4 @@ nav ul > li button:before {
 
 nav ul > li button.selected {
 	opacity: 1;
-}
+}*/
