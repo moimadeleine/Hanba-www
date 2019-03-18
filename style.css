@@ -564,4 +564,19 @@ nav {
 	display: none;
 }
 
+}
 
+/*cd-discography slider*/
+
+
+.song {
+	display: none;
+}
+
+li {
+	cursor: pointer;
+}
+
+.active {
+	display: block;
+}
