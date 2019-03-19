@@ -43,6 +43,13 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Motor';
+    src: url('fonts/Motor.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 body {
@@ -114,14 +121,14 @@ a:hover {
   }
 
   .navbar li {
-	  display: inline-block;
+	display: inline-block;
 	  
   }
   
   .navbar a {
-	  font-family: 'lombard';
-	  text-align: center;
-
+	font-family: 'Motor';
+	text-align: center;
+	text-transform: ;
 	display: inline-block;
 	color: black;
 	text-align: center;
@@ -135,8 +142,16 @@ a:hover {
 	color: white;
 	display: inline-block;
 	}
+
+	.logo {
+		display: inline-block;
+		width: 5em;
+		height: 5em;
+		background-size: Auto 1em;
+		vertical-align: middle;
+	}
 	
-		
+	/*	
 	.audio-player {
 		padding-left: 110px;
 		padding-top: 5px;
@@ -154,7 +169,7 @@ a:hover {
 			cursor: pointer; 
 	}
 
-
+*/
 header h1 {
 	font-family: 'magielblack';
 	font-size: 9.5em;
