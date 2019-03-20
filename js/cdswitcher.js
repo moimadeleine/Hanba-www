@@ -1,5 +1,6 @@
 
 
+(function(){
 
   const discList = document.querySelector('.disc-list');
   const li = discList.querySelectorAll('li');
@@ -30,8 +31,9 @@
   
     }
   
-
   });
+
+})();
   
 
 
