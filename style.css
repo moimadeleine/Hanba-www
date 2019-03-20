@@ -126,15 +126,17 @@ a:hover {
   }
   
   .navbar a {
-	font-family: 'Motor';
+	font-family: 'futura', 'Motor';
 	text-align: center;
 	text-transform: ;
 	display: inline-block;
 	color: black;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 16px 16px;
 	text-decoration: none;
 	font-size: 1.2em;
+	font-weight: bold;
+	
   }
   
   .navbar a:hover {
@@ -149,7 +151,10 @@ a:hover {
 		height: 5em;
 		background-size: Auto 1em;
 		vertical-align: middle;
+		
 	}
+
+	
 	
 	/*	
 	.audio-player {
