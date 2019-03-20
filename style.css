@@ -556,13 +556,13 @@ img {
 	font-family: 'rewir';
 	font-size: 3em;
 	padding-top: .5em;
-	padding-bottom: .5em;
+	
 }
 
 .dics-description {
 	font-family: 'rewir';
 	font-size: 1em;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 
 }
 
@@ -595,6 +595,10 @@ img {
 .song-title {
 	font-family: 'futura';
 	
+}
+
+.song-author {
+	color: grey;
 }
 
 
