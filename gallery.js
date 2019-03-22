@@ -1,16 +1,11 @@
 
 
 let currentNumber = 1;
-document.querySelector ( '#pin' + currentNumber ).classList.add ( 'selected')
+
 document.querySelector ( '#slide' + currentNumber ).classList.add ( 'show')
 
 
-for (let numerPinu = 1; numerPinu <=5; numerPinu++) {
-    document.querySelector( '#pin' + numerPinu ).addEventListener( 'click', function ( ) { 
-        showSlide ( numerPinu )
-    } );
 
-}
 
 
 function showNextSlide( ) { 
@@ -39,7 +34,3 @@ function showSlide( newNumber ) {
     selectPin ( newNumber );
 }
 
-function selectPin( newNumber ) {
-    document.querySelector ( '.selected' ).classList.remove ( 'selected' );
-    document.querySelector ( '#pin' + newNumber ).classList.add ( 'selected' );
-}
