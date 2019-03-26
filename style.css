@@ -622,14 +622,15 @@ img {
 
   .concert-place {
       font-family: 'rewir';
-      padding: .7em;
+	  padding-top: .7em;
+	  padding-bottom: .7em;
+	  
   }
 
   .bilet {
       color: white;
       background: #f20c3e;
-    padding: .3em;
-     width: 70%;  
+	  padding: .3em;
       text-align: center;
       font-family: 'rewir';
   }
