@@ -714,9 +714,7 @@ li {
  /* tabelka - koncerty */
 
  @media all and (max-width: 767px) {
-    .responsive-table .table-header {
-      display: none;
-    }
+    
     .responsive-table li {
       display: block;
     }
@@ -727,11 +725,5 @@ li {
       display: flex;
       
     }
-    .responsive-table .col:before {
-      color: #6c7a89;
-      padding-right: 10px;
-      content: attr(data-label);
-      flex-basis: 50%;
-      text-align: center;
-    }
+    
   }
