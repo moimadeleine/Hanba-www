@@ -616,7 +616,8 @@ img {
 
   .title-city {
     font-family: 'lombard';
-    font-size: 1.4em;
+	font-size: 1.4em;
+	text-align: center;
   }
 
   .concert-place {
@@ -724,13 +725,13 @@ li {
     }
     .responsive-table .col {
       display: flex;
-      padding: 10px 0;
+      
     }
     .responsive-table .col:before {
       color: #6c7a89;
       padding-right: 10px;
       content: attr(data-label);
       flex-basis: 50%;
-      text-align: right;
+      text-align: center;
     }
   }
