@@ -478,8 +478,9 @@ img {
 }
 
 .buy {
-	width: 10%;
-	margin-top: 10px;
+	width: 20%;
+	margin-top: 5%;
+	
 }
 .list {
 	list-style: none;
@@ -602,6 +603,67 @@ img {
 }
 
 
+/* tabelka - koncerty */
+  
+.container-table {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+  .title-city {
+    font-family: 'lombard';
+    font-size: 1.4em;
+  }
+
+  .concert-place {
+      font-family: 'rewir';
+      padding: .7em;
+  }
+
+  .bilet {
+      color: white;
+      background: #f20c3e;
+    padding: .3em;
+     width: 70%;  
+      text-align: center;
+      font-family: 'rewir';
+  }
+
+  .link-buy {
+      text-decoration: none;
+  }
+  
+  .responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .responsive-table .col-1 {
+    flex-basis: 30%;
+  }
+
+  .responsive-table .col-2 {
+    flex-basis: 50%;
+  }
+  
+  .responsive-table .col-3 {
+    flex-basis: 20%;
+  }
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
    body {
     font-size: 1em;
@@ -647,3 +709,28 @@ li {
 .active {
 	display: block;
 }
+
+ /* tabelka - koncerty */
+
+ @media all and (max-width: 767px) {
+    .responsive-table .table-header {
+      display: none;
+    }
+    .responsive-table li {
+      display: block;
+    }
+    .responsive-table .col {
+      flex-basis: 100%;
+    }
+    .responsive-table .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-table .col:before {
+      color: #6c7a89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
