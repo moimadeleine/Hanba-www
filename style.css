@@ -72,16 +72,10 @@ h3 {
 }
 
 
-a {
-	color: black;
+a {	
 	transition: all 0.7s ease-in-out;
-
 }
 
-nav a {
-	color: black;
-	transition: all 0.5s ease-in-out;
-}
 
 header p {
 	font-family: 'futura-pt';
@@ -98,15 +92,7 @@ header p {
 
 a, a:hover {
 	text-decoration: none;
-
 }
-
-a:hover {
-	background: black;
-	color: white;
-
-}
-
 
 .navbar {
 	overflow: hidden;
@@ -128,7 +114,7 @@ a:hover {
 	  
   }
   
-  .navbar a {
+  .nav-link {
 	font-family: 'futura-pt', sans-serif;
 	font-weight: 700;
 	font-style: normal;
@@ -136,44 +122,39 @@ a:hover {
 	display: inline-block;
 	color: black;
 	text-align: center;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 1.9em;
+	padding-right: 1.9em;
 	text-decoration: none;
 	font-size: .9em;
 	font-weight: bold;
 	
   }
   
-  .navbar a:hover {
+  .nav-link:hover {
 	background: #d68a00;
 	color: white;
 	display: inline-block;
 
 	}
 
-	.logo {
-		display: inline-block;
-		width: 5em;
-		height: 5em;
-		background-size: Auto 1em;
-		vertical-align: middle;
-		margin-left: .7em;
-		margin-right: .7em;
-		
-		
-	}
-
 	.logo-pic {
 		display: inline-block;
-		width: 5em;
-		height: 5em;
-		background-size: Auto 1em;
+		width: 40%;
 		vertical-align: middle;
-		margin-left: .7em;
-		margin-right: .7em;
+		padding-top: 5px;	
 	}
 
 	
+
+	#logo #logo-img {
+			
+		content:url("img/logo_hanba.svg");
+	}
+	
+	#logo #logo-img:hover {
+			
+		content:url("img/logo_hanba2.svg");
+	}
 	
 	/*	
 	.audio-player {
@@ -253,8 +234,6 @@ header {
 	color: white;
 	font-size: 3.5em;
 	margin: 0;
-	
-	
 	
 }
 
@@ -673,16 +652,13 @@ header {
   	flex-direction: column;
   	background-attachment: fixed;
   	padding: 23em;
-	overflow: hidden;
-	  
-  	
+	overflow: hidden; 	
 }
 
 .teledysk::before {
 	
 	position: absolute;
 	z-index: -2;	
-
 }
 
 
