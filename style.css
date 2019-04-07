@@ -106,6 +106,7 @@ a, a:hover {
 
   .navbar ul {
 	list-style-type: none;
+	display: none;
 	/* display: inline-block; */
   }
 
@@ -963,23 +964,7 @@ li {
 
 
 
-.topnav a {
-	float: left;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-  }
-  
-  .topnav a:hover {
-	
-	color: black;
-  }
-  
-  .active {
-	background-color: white;
-	color: black;
-  }
-  
+
   
   
   @media screen and (max-width: 600px) {
@@ -992,9 +977,7 @@ li {
 	}
 	.logo-pic {display:none;}
 
-	.navbar {
-		height: 100vh;
-	}
+	
   }
   
  
@@ -1079,6 +1062,7 @@ li {
   
   @media (min-width: 768px) {
 	  .hamburger {display: none;}
+	  .navbar ul {display: block}
 	  
   }
   
