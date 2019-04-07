@@ -1060,7 +1060,7 @@ li {
   @media (min-width: 768px) {
 	  .hamburger {display: none;}
 	  .navbar ul {display: block}
-	  li {display: inline-block}
+	  .navbar li {display: inline-block}
 	  
   }
   
