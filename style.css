@@ -139,7 +139,7 @@ a, a:hover {
 
 	.logo-pic {
 		display: inline-block;
-		width: 40%;
+		width: 45%;
 		vertical-align: middle;
 		padding-top: 5px;	
 	}
@@ -901,6 +901,45 @@ li {
 
 .active {
 	display: block;
+}
+
+
+.content {
+
+	position: fixed;
+	height: 100%;
+	width:100%;
+	left: 0;
+	top: 0;
+	z-index:2;
+	background-color: white;
+	overflow: scroll;
+	display: none;
+}
+
+.close-cd {
+	position: fixed;
+	z-index:10;
+	background-color: green;
+	display: inline-block;
+	padding: 15px;
+	right: 10px;
+}
+
+@media (min-width: 768px) {
+
+	.content {
+
+		position: static;
+		background-color: transparent;
+		overflow: visible;
+
+	}
+
+	.close-cd {
+
+		position: static;
+	}
 }
 
  /* tabelka - koncerty */

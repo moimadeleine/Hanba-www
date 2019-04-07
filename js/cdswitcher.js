@@ -3,11 +3,26 @@
 (function(){
 
   const discList = document.querySelector('.disc-list');
-  const li = discList.querySelectorAll('li');
-  let currentSlide = 'slider1';
   const songs = document.querySelector('.songs-list');
   const song = songs.querySelectorAll('.song');
 
+
+
+
+  if (document.querySelector('.close-cd')!=null)  {
+
+    const closeCd = document.querySelector('.close-cd');
+    const cdContent =  document.querySelector('.content')
+
+
+    closeCd.addEventListener('click', function(){
+    
+    
+        cdContent.remove();
+    
+      });
+    
+    }
   
   
   discList.addEventListener('click', function(e){
