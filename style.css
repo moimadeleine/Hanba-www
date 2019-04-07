@@ -110,6 +110,8 @@ a, a:hover {
 	/* display: inline-block; */
   }
 
+ 
+
   
   
   .nav-link {
@@ -1059,8 +1061,9 @@ li {
   
   @media (min-width: 768px) {
 	  .hamburger {display: none;}
-	  .navbar ul {display: block}
-	  .navbar li {display: inline-block}
+	  .navbar ul {display: block;}
+	  .navbar li {display: inline-block;}
+	  .home {display: none;}
 	  
   }
   
