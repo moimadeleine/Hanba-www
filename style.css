@@ -110,10 +110,7 @@ a, a:hover {
 	/* display: inline-block; */
   }
 
-  .navbar li {
-	display: inline-block;
-	  
-  }
+  
   
   .nav-link {
 	font-family: 'futura-pt', sans-serif;
@@ -1063,6 +1060,7 @@ li {
   @media (min-width: 768px) {
 	  .hamburger {display: none;}
 	  .navbar ul {display: block}
+	  li {display: inline-block}
 	  
   }
   
