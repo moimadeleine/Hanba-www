@@ -187,6 +187,8 @@ header h1 {
 	color: #d68a00;
 	letter-spacing: 1px;
 	margin-top: 1em;
+	/* -webkit-text-stroke-width: 15px;
+  -webkit-text-stroke-color: white; */
 	background: white;
 	
 }
