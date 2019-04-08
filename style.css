@@ -122,10 +122,10 @@ a, a:hover {
 	display: inline-block;
 	color: black;
 	text-align: center;
-	padding-left: 1.9em;
-	padding-right: 1.9em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 	text-decoration: none;
-	font-size: .9em;
+	font-size: 1.1em;
 	font-weight: bold;
 	
   }
@@ -139,12 +139,18 @@ a, a:hover {
 
 	.logo-pic {
 		display: inline-block;
-		width: 45%;
+		width: 60%;
 		vertical-align: middle;
 		padding-top: 5px;	
 	}
 
-	
+
+	.social-menu a {
+		
+		display: inline-block;
+		width: 30px;
+		vertical-align: middle;	
+	}
 
 	#logo #logo-img {
 			
@@ -1064,6 +1070,7 @@ li {
 	  .navbar ul {display: block;}
 	  .navbar li {display: inline-block;}
 	  .home {display: none;}
+	  .social-menu {display: inline-block; }
 	  
   }
   
