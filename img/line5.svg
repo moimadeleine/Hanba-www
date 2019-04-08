@@ -3,12 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1366 100" style="enable-background:new 0 0 1366 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#D68A00;}
+	.st0{fill:none;stroke:#020203;stroke-width:22;stroke-miterlimit:10;}
 </style>
-<rect x="462" y="24.1" class="st0" width="71" height="50"/>
-<rect x="612" y="14.1" class="st0" width="71" height="71"/>
-<rect x="683" y="42.9" class="st0" width="71" height="31.3"/>
-<rect x="798.2" y="21.1" class="st0" width="71" height="31.3"/>
-<rect x="842.8" y="50" class="st0" width="71" height="31.3"/>
-<rect x="399.5" y="39.1" class="st0" width="566.9" height="21.7"/>
+<polyline class="st0" points="378.4,81.5 434.9,24.9 434.9,24.9 485.1,75.1 535.7,24.9 535.7,24.9 581.3,75.1 632.1,24.9 
+	632.1,24.9 682.3,75.1 733.9,24.9 733.9,24.9 784,75.1 834.6,24.9 834.6,24.9 880.2,75.1 931.1,24.9 931.1,24.9 988.3,82.1 "/>
 </svg>

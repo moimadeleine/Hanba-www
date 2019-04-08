@@ -50,7 +50,7 @@
     font-style: normal;
 }
 
-
+*{box-sizing: border-box}
 
 body {
 	margin: 0;
@@ -154,12 +154,12 @@ a, a:hover {
 
 	#logo #logo-img {
 			
-		content:url("img/logo_hanba.svg");
+		content:url("img/logo_hanba2.svg");
 	}
 	
 	#logo #logo-img:hover {
 			
-		content:url("img/logo_hanba2.svg");
+		content:url("img/logo_hanba.svg");
 	}
 	
 	/*	
@@ -183,12 +183,24 @@ a, a:hover {
 */
 header h1 {
 	font-family: 'magielblack';
-	font-size: 9.5em;
+	font-size: 10em;
 	color: #d68a00;
 	letter-spacing: 1px;
 	margin-top: 1em;
+	background: white;
 	
 }
+/* header span {
+	color: #d68a00;
+	position: absolute;
+	bottom: 40px;
+	font-family: 'rewir';
+	font-size: 14px;
+	transform: rotate(-90deg);
+	  left: 30px;
+	  bottom: 15px;
+	  transform-origin: 0 0;
+  } */
 
 
 header .tagline {
@@ -220,6 +232,11 @@ header {
 	padding-bottom: 1.8em;
 }
 
+.figcaption {
+	font-family: 'rewir';
+	font-size: .7em;
+}
+
 
 .menago {
   background: #d68a00;
@@ -230,7 +247,8 @@ header {
 
 .menago p {
 	color: white;
-	font-family: 'lombard';
+	font-family: 'Cyrulik-Sharp';
+	font-size: 7em;
 	margin: 0;
 
 }
@@ -238,8 +256,9 @@ header {
 .menago h4 {
 	font-family: 'futura-pt';
 	color: white;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	margin: 0;
+	
 	
 }
 
@@ -252,7 +271,7 @@ header {
 
 /* stopka !!!!!!!!!!!!!!!!!!!!! */
 .footer-distributed{
-	background-color: #0c2231;
+	background-color: black;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -261,6 +280,11 @@ header {
   	padding-bottom: 0.7em;
 	padding: 55px 50px;
 	
+}
+
+.logo-footer {
+	width: 80px;
+	margin-right: 1em;
 }
 
 .footer-distributed .footer-left,
@@ -509,6 +533,7 @@ header {
 	font-size: 2.7em;
 	text-align: center;
 	margin-top: 1em;
+	margin-bottom: 0;
 }
 
 .second-div p {
@@ -543,6 +568,13 @@ header {
 	margin: 0;
 	padding-bottom: 6em;
 }
+.fourth-div h4 {
+	font-family: 'rewir';
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+
+}
 
 .red-space {
 	height: 20vh;
@@ -575,6 +607,7 @@ header {
 
 .Andrzej {
 	font-family: 'cyrulikSharp';
+	margin-bottom: 0;
 }
 
 .Ignacy {
@@ -880,6 +913,7 @@ header a {
 
 
 
+
 nav {
 	background: white;
 	padding-bottom: .5em;
@@ -981,6 +1015,9 @@ li {
 	  display: block;
 	}
 	.logo-pic {display:none;}
+	.social-menu {display:none;}
+	.concert {display:none;}
+	
 
 	
   }
