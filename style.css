@@ -181,17 +181,7 @@ a, a:hover {
 	}
 
 */
-header h1 {
-	font-family: 'magielblack';
-	font-size: 10em;
-	color: #d68a00;
-	letter-spacing: 1px;
-	margin-top: 1em;
-	/* -webkit-text-stroke-width: 15px;
-  -webkit-text-stroke-color: white; */
-	background: white;
-	
-}
+
 /* header span {
 	color: #d68a00;
 	position: absolute;
@@ -273,6 +263,36 @@ header {
 	color: white;
 	font-size: 1em;
 }
+
+.menago2 {
+	background: #20680c;
+	text-align: center;
+	padding-top: 10em;
+	padding-bottom: 10em;
+  }
+  
+  .menago2 p {
+	  color: white;
+	  font-family: 'cyrulikSharp';
+	  font-size: 7em;
+	  margin: 0;
+  
+  }
+  
+  .menago2 h4 {
+	  font-family: 'futura-pt';
+	  color: white;
+	  font-size: 2.5em;
+	  margin: 0;
+	  
+	  
+  }
+  
+  .menago2 h5 {
+	  font-family: 'futura-pt';
+	  color: white;
+	  font-size: 1em;
+  }
 
 
 /* stopka !!!!!!!!!!!!!!!!!!!!! */
@@ -546,6 +566,15 @@ header {
 	margin-bottom: 0;
 }
 
+.second-div h3 {
+	font-family: 'lombard';
+	font-size: 2.3em;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+
+}
+
 .second-div p {
 	font-family: 'cyrulikSharp';
 	font-size: 1.5em;
@@ -757,19 +786,7 @@ img {
 	margin: 0;
 }
 
-.header-koncerty {
-	height: 20vh;
-	background-image: url(" ");
-	background-size: cover;
-	text-align: center;
-	position: relative;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	flex-direction: column;
-  	background-attachment: fixed;
-	overflow: hidden;
-}
+
 
 .galeria {
 	height: 40vh;
@@ -808,7 +825,7 @@ img {
 	margin-bottom: 5em;
 }
 
-.disc-header {
+.content h2 {
 	font-family: 'rewir';
 	font-size: 3em;
 	padding-top: .5em;
@@ -827,21 +844,14 @@ img {
 }
 
 .disc-list li {
-	font-family: 'futura';
-	font-size: 1.1em;
+	font-family: 'cyrulikSharp';
+	font-size: 1.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	
 }
 
-.hide-cd-button {
-	font-family: 'rewir';
-	font-size: 1em;
-	color: white;
-	background: red;
-	padding: .3em;
 
-}
 
 .songs-list {
 	font-family: 'rewir';
@@ -849,7 +859,7 @@ img {
 }
 
 .song-title {
-	font-family: 'futura';
+	font-family: 'cyrulikSharp';
 	
 }
 
@@ -883,12 +893,21 @@ img {
 	  
   }
 
-  .bilet {
+  .bilet-active {
       color: white;
       background: #d68a00;
 	  padding: .3em;
       text-align: center;
       font-family: 'rewir';
+  }
+
+  .bilet-free {
+	color: black;
+	padding: .3em;
+	text-align: center;
+	font-family: 'cyrulikSharp';
+	font-size: 1.5em;
+
   }
 
   .link-buy {
@@ -985,13 +1004,17 @@ li {
 }
 
 .close-cd {
+	font-family: 'rewir';
+	color: white;
 	position: fixed;
-	z-index:10;
-	background-color: green;
+	z-index: 15;
+	background-color: #d68a00;
 	display: inline-block;
 	padding: 15px;
 	right: 10px;
 }
+
+
 
 @media (min-width: 768px) {
 
