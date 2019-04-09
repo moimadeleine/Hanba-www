@@ -290,7 +290,8 @@ header {
 
 .logo-footer {
 	width: 80px;
-	margin-right: 1em;
+	margin-right: 2em;
+	margin-left: 2em;
 }
 
 .footer-distributed .footer-left,
@@ -307,13 +308,13 @@ header {
 	font-family: 'magielblack';
 	font-size: 3.5em;
 	margin: 0;
-	padding-right: 1.5em;
+	
 	
 }
 
 
 .footer-contact {
-	font-family: 'rewir';
+	font-family: 'futura-pt';
 	font-size: 1em;
 	color: white;
 	
@@ -337,9 +338,7 @@ header {
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-family: 'rewir';
-
 	font-size: .7em;
-	
 	padding-top: 5em;
 	padding-bottom: 1em;
 	margin: 0;
@@ -387,17 +386,22 @@ header {
 	color:  white;
 	text-decoration: none;;
 	border: solid;
-	margin: .3em;
+	margin-left: 1em;
 }
 
 
 .download {
-	font-family: 'lombard';
+	font-family: 'futura-pt';
 	font-size: 2em;
-	padding: 1em;
+	padding: .5em;
+	
 }
 
-
+.footer-center {
+	margin-left: 2em;
+	margin-top: 1em;
+	
+}
 /* Footer Right */
 
 .footer-distributed .footer-right{
@@ -573,6 +577,7 @@ header {
 	font-weight: 900;
 	margin: 0;
 	padding-bottom: 6em;
+	
 }
 .fourth-div h4 {
 	font-family: 'rewir';
@@ -609,7 +614,10 @@ header {
 	/*border-bottom: 8px solid black;
 	border-top: 8px solid black;*/
 	margin-top: 0;
+	
 }
+
+
 
 .Andrzej {
 	font-family: 'cyrulikSharp';
@@ -683,6 +691,19 @@ header {
 	position: absolute;
 	z-index: -2;	
 
+}
+
+.author-concert {
+	
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	font-family: 'rewir';
+	font-size: 10px;
+	transform: rotate(-90deg);
+	  left: 30px;
+	  bottom: 50px;
+	  transform-origin: 0 0;
 }
 
 .teledysk {
