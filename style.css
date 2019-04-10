@@ -155,11 +155,18 @@ a, a:hover {
 	#logo #logo-img {
 			
 		content:url("img/logo_hanba2.svg");
+		-moz-content:url("img/logo_hanba2.svg");
+		-webkit-content:url("img/logo_hanba2.svg");
+		-ms-content:url("img/logo_hanba2.svg");
+
 	}
 	
 	#logo #logo-img:hover {
 			
 		content:url("img/logo_hanba.svg");
+		-moz-content:url("img/logo_hanba.svg");
+		-webkit-content:url("img/logo_hanba.svg");
+		-ms-content:url("img/logo_hanba.svg");
 	}
 	
 	/*	
@@ -603,7 +610,7 @@ header {
 
 .fourth-div p {
 	font-family: 'rewir';
-	font-weight: 700;
+	font-weight: 600;
 	margin: 0;
 	padding-bottom: 6em;
 	
