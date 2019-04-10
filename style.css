@@ -272,14 +272,14 @@ header {
 }
 
 .menago2 {
-	background: #20680c;
+	background: grey;
 	text-align: center;
-	padding-top: 10em;
+	padding-top: 7em;
 	padding-bottom: 10em;
   }
   
   .menago2 p {
-	  color: white;
+	  color: black;
 	  font-family: 'cyrulikSharp';
 	  font-size: 7em;
 	  margin: 0;
@@ -288,7 +288,7 @@ header {
   
   .menago2 h4 {
 	  font-family: 'futura-pt';
-	  color: white;
+	  color: black;
 	  font-size: 2.5em;
 	  margin: 0;
 	  
@@ -297,7 +297,7 @@ header {
   
   .menago2 h5 {
 	  font-family: 'futura-pt';
-	  color: white;
+	  color: black;
 	  font-size: 1em;
   }
 
@@ -842,12 +842,14 @@ img {
 	
 }
 
-.dics-description {
+
+.disc-description {
 	font-family: 'rewir';
 	font-size: 1em;
 	padding-bottom: 1em;
 
 }
+
 
 .disc-list {
 	list-style: none;
