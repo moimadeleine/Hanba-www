@@ -786,7 +786,10 @@ img {
 	margin: 0;
 }
 
-
+.bottom-graphic {
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
 
 .galeria {
 	height: 40vh;
@@ -860,11 +863,16 @@ img {
 
 .song-title {
 	font-family: 'cyrulikSharp';
+	margin-bottom: 5px;
+	
+	
+	
 	
 }
 
 .song-author {
 	color: grey;
+	margin-top: 0;
 }
 
 
