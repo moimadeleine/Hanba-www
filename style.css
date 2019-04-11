@@ -146,40 +146,26 @@ a, a:hover {
 	}
 
 	.logo-pic {
-		/* display: inline-block; */
-		width: 60%;
+		display: inline-block;
+		width: 70px;
+		height: 70px;
 		vertical-align: middle;
-		padding-top: 5px;	
+		margin: 10px;
+		
 		background: url("img/logo_hanba2.svg") no-repeat;
 	}
 	.logo-pic:hover {
-		/* display: inline-block; */
-		width: 60%;
+		display: inline-block;
+		width: 70px;
+		height: 70px;
 		vertical-align: middle;
-		padding-top: 5px;	
+		margin: 10px;
 		background: url("img/logo_hanba.svg") no-repeat;
 	}
 
 	
 
-	/* #logo #logo-img {
-			
-		content:url("img/logo_hanba2.svg");
-		-moz-content:url("img/logo_hanba2.svg");
-		-webkit-content:url("img/logo_hanba2.svg");
-		-ms-content:url("img/logo_hanba2.svg");
-		
 
-	} */
-	
-	/* #logo #logo-img:hover {
-			
-		content:url("img/logo_hanba.svg");
-		-moz-content:url("img/logo_hanba.svg");
-		-webkit-content:url("img/logo_hanba.svg");
-		-ms-content:url("img/logo_hanba.svg");
-		
-	} */
 	
 	/*	
 	.audio-player {
