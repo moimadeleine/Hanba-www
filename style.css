@@ -100,7 +100,7 @@ a, a:hover {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 2;
+	z-index: 4;
 	display: inline-block;
   }
 
@@ -164,8 +164,22 @@ a, a:hover {
 	}
 
 	
+.waves {
 
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	
 
+}
+
+.hanba_cover2 {
+	margin-bottom: 2em;
+}
+
+.oficjalneFilmy h2 {
+	margin-top: 0;
+}
 	
 	/*	
 	.audio-player {
@@ -233,6 +247,11 @@ header {
 	padding-bottom: 1.8em;
 }
 
+.line5x {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 .figcaption {
 	font-family: 'rewir';
 	font-size: .7em;
@@ -270,10 +289,10 @@ header {
 }
 
 .menago2 {
-	background: grey;
+	
 	text-align: center;
-	padding-top: 7em;
-	padding-bottom: 10em;
+	/* padding-top: 7em; */
+	padding-bottom: 5em;
   }
   
   .menago2 p {
@@ -297,7 +316,27 @@ header {
 	  font-family: 'futura-pt';
 	  color: black;
 	  font-size: 1em;
+	  margin: 5px;
   }
+
+  .menago2 h2 {
+	color: black;
+	font-family: 'cyrulikSharp';
+	font-size: 2em;
+	margin: 5px;
+
+  }
+
+  .menago2 h3 {
+	color: black;
+	font-family: 'rewir';
+	font-size: 1em;
+	margin: 5px;
+	
+
+  }
+
+  
 
 
 /* stopka !!!!!!!!!!!!!!!!!!!!! */
@@ -373,6 +412,7 @@ header {
 
 .footer-distributed .footer-center{
 	width: 40%;
+	
 }
 
 .footer-distributed .footer-center i{
@@ -412,6 +452,8 @@ header {
 	text-decoration: none;;
 	border: solid;
 	margin-left: 1em;
+	margin-bottom: .3em;
+	float: left;
 }
 
 
@@ -745,7 +787,7 @@ header {
 	background-size: cover;
 	text-align: center;
 	position: relative;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -811,9 +853,7 @@ img {
 
 }
 
-.youtube-space {
-	margin-bottom: 5em;
-}
+
 
 .muzyka {
 	height: 20vh;
@@ -836,7 +876,8 @@ img {
 .content h2 {
 	font-family: 'rewir';
 	font-size: 3em;
-	padding-top: .5em;
+	/* padding-top: .5em; */
+	margin-left: .2em;
 	
 }
 
@@ -845,8 +886,11 @@ img {
 	font-family: 'rewir';
 	font-size: 1em;
 	padding-bottom: 1em;
+	margin-left: .5em;
 
 }
+
+
 
 
 .disc-list {
@@ -1082,6 +1126,8 @@ li {
 	.logo-pic {display:none;}
 	.social-menu {display:none;}
 	.concert {display:none;}
+	.teledysk {display:none;}
+
 	
 
 	
