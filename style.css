@@ -874,11 +874,12 @@ img {
 .content h2 {
 	font-family: 'cyrulikSharp';
 	font-size: 3em;
-	/* padding-top: .5em; */
+	padding-top: .6em;
 	margin-left: .2em;
 	margin-bottom: .5em;
 	
 }
+
 
 
 .disc-description {
@@ -1138,7 +1139,9 @@ li {
 	.concert {display:none;}
 	.teledysk {display:none;}
 	.bandcamp {display:none;}
-	.main-baner {padding-top: 3em;}
+	.main-baner {padding-top: 3.5em;}
+	
+	
 
 	
 
