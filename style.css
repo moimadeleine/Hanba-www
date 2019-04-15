@@ -333,10 +333,11 @@ header {
 	font-size: 1em;
 	margin: 5px;
 	
-
   }
 
-  
+  .antena {
+	  color: black;
+  }
 
 
 /* stopka !!!!!!!!!!!!!!!!!!!!! */
@@ -403,7 +404,7 @@ header {
 	color:  #8f9296;
 	font-family: 'rewir';
 	font-size: .7em;
-	padding-top: 5em;
+	padding-top: 4em;
 	padding-bottom: 1em;
 	margin: 0;
 }
@@ -428,10 +429,7 @@ header {
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
+
 
 .footer-distributed .footer-center p{
 	display: inline-block;
@@ -874,10 +872,11 @@ img {
 }
 
 .content h2 {
-	font-family: 'rewir';
+	font-family: 'cyrulikSharp';
 	font-size: 3em;
 	/* padding-top: .5em; */
 	margin-left: .2em;
+	margin-bottom: .5em;
 	
 }
 
@@ -885,7 +884,7 @@ img {
 .disc-description {
 	font-family: 'rewir';
 	font-size: 1em;
-	padding-bottom: 1em;
+	padding-bottom: .5em;
 	margin-left: .5em;
 
 }
@@ -926,6 +925,12 @@ img {
 	margin-top: 0;
 }
 
+.Sutari {
+
+	color: black;
+	text-decoration: underline;
+}
+
 
 /* tabelka - koncerty */
   
@@ -941,6 +946,7 @@ img {
   .title-city {
     font-family: 'cyrulikSharp';
 	font-size: 1.7em;
+	
 	
   }
 
@@ -975,7 +981,7 @@ img {
   
   .responsive-table li {
     border-radius: 3px;
-    padding: 25px 30px;
+    /* padding: 25px 30px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
@@ -1127,6 +1133,7 @@ li {
 	.social-menu {display:none;}
 	.concert {display:none;}
 	.teledysk {display:none;}
+	.bandcamp {display:none;}
 
 	
 
