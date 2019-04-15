@@ -1062,7 +1062,8 @@ li {
 	position: fixed;
 	height: 100%;
 	width:100%;
-	left: 0;
+	left: 10px;
+	right: 10px;
 	top: 0;
 	z-index:2;
 	background-color: white;
@@ -1087,6 +1088,7 @@ li {
 
 	.content {
 
+		
 		position: static;
 		background-color: transparent;
 		overflow: visible;
@@ -1136,6 +1138,7 @@ li {
 	.concert {display:none;}
 	.teledysk {display:none;}
 	.bandcamp {display:none;}
+	.main-baner {padding-top: 3em;}
 
 	
 
