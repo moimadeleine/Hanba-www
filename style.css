@@ -1130,11 +1130,7 @@ li {
 
 
 
-.youtube iframe {
-	width: 520px;
-	height: 350px;
-	margin-bottom: 3em;
-}
+
   
   
   @media screen and (max-width: 600px) {
@@ -1153,19 +1149,17 @@ li {
 	.main-baner {padding-top: 3.7em;}
 	.disc-list {padding-inline-start: 0;}
 	.youtube iframe {
-		width: 360px;
-		height: 200px;
+		width: 340px;
+		height: 180px;
 		margin-bottom: 3em;}
 	.Kasia-galeria {padding-bottom: 15px;}
 	.hanba_cover2 {
 		margin-bottom: .5em;
 	}
 
-
   }
   
  
-  
   
   
   /*hamburger style i animacja*/
@@ -1249,10 +1243,24 @@ li {
 	  .navbar ul {display: block;}
 	  .navbar li {display: inline-block;}
 	  .home {display: none;}
-	  .social-menu {display: inline-block; }
+	  .social-menu {display: inline-block;}
+		.youtube iframe {
+			width: 340px;
+			height: 180px;
+			margin-bottom: 3em;}
 	  
   }
-  
+  @media (min-width: 1200px) {
+
+	.youtube iframe {
+		width: 540px;
+		height: 350px;
+		margin-bottom: 3em;
+		display: block;
+		
+	}
+
+  }
   
   
   
