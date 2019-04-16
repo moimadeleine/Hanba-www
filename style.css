@@ -717,7 +717,10 @@ header {
 	border-bottom: 1px solid lightgrey;
 }
 
-
+/* .nowa-plyta {
+	width: 50%;
+	padding-left: 5em;
+} */
 
 .hanba_cover {
 	background-image: url("img/hanba_cover.jpg");
@@ -897,6 +900,7 @@ img {
 
 .disc-list {
 	list-style: none;
+	
 }
 
 .disc-list li {
@@ -906,6 +910,7 @@ img {
 	padding-bottom: 0.5em;
 	
 }
+
 
 
 
@@ -1063,8 +1068,9 @@ li {
 	position: fixed;
 	height: 100%;
 	width:100%;
-	left: 10px;
+	left: 0;
 	right: 10px;
+	padding-left: 10px;
 	top: 0;
 	z-index:2;
 	background-color: white;
@@ -1074,12 +1080,13 @@ li {
 
 .close-cd {
 	font-family: 'rewir';
+	font-size: .9em;
 	color: white;
 	position: fixed;
 	z-index: 15;
 	background-color: #d68a00;
 	display: inline-block;
-	padding: 15px;
+	padding: 10px;
 	right: 10px;
 }
 
@@ -1124,8 +1131,8 @@ li {
 
 
 .youtube iframe {
-	width: 500px;
-	height: 300px;
+	width: 520px;
+	height: 350px;
 	margin-bottom: 3em;
 }
   
@@ -1144,13 +1151,17 @@ li {
 	.teledysk {display:none;}
 	.bandcamp {display:none;}
 	.main-baner {padding-top: 3.7em;}
-	
-	
-	
+	.disc-list {padding-inline-start: 0;}
+	.youtube iframe {
+		width: 360px;
+		height: 200px;
+		margin-bottom: 3em;}
+	.Kasia-galeria {padding-bottom: 15px;}
+	.hanba_cover2 {
+		margin-bottom: .5em;
+	}
 
-	
 
-	
   }
   
  
