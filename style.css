@@ -52,6 +52,7 @@
 
 *{box-sizing: border-box}
 
+
 body {
 	margin: 0;
 }
@@ -1072,7 +1073,7 @@ li {
 	right: 10px;
 	padding-left: 10px;
 	top: 0;
-	z-index:2;
+	z-index:7;
 	background-color: white;
 	overflow: scroll;
 	display: none;
@@ -1268,4 +1269,12 @@ li {
   /* koniec responsywnego menu */
 
   .row {margin-right: 0; margin-left: 0}
-  
+	
+	
+	.rel {
+		position: relative;
+	}
+
+	* {
+		scroll-behavior: smooth;
+	}
