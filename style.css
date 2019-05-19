@@ -140,11 +140,22 @@ a, a:hover {
 
 	
 	.social-menu a {
-		
 		display: inline-block;
 		width: 30px;
 		vertical-align: middle;	
 	}
+
+	.audio-player {
+		width: 30px;
+		height: 25px;
+		color: black;
+	}
+
+	.audio-player button.play {
+		width: 30px;
+		color: white;
+		font-size: 15px;
+}
 
 	.logo-pic {
 		display: inline-block;
