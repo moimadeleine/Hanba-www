@@ -143,19 +143,24 @@ a, a:hover {
 		display: inline-block;
 		width: 30px;
 		vertical-align: middle;	
+		margin-top: 7px;
 	}
 
-	.audio-player {
-		width: 30px;
-		height: 25px;
-		color: black;
-	}
+
 
 	.audio-player button.play {
-		width: 30px;
-		color: white;
-		font-size: 15px;
+		background: #d68a00;
+		color: #fff;
+		position: relative;
+		border: none;
+		outline: none;
+		width: 28px;
+		height: 18px;
+		font-size: 12px;
+		margin-right: 3px;
+		
 }
+
 
 	.logo-pic {
 		display: inline-block;
